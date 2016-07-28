@@ -1,5 +1,13 @@
 $(function(){
     
+    //scrolling through carousel
+    $('.carousel').carousel({
+        interval:3000,
+        pauseonhober :true,
+        wrap:true,
+        keyboard:false
+    });
+    
     //make the current page active
     $("#home a:contains('Home')").parent().addClass('active');
     $("#about a:contains('About Us')").parent().addClass('active');

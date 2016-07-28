@@ -1,0 +1,13 @@
+.myCarouselImg img {
+  width: 1200px;
+	
+	
+	
+  height: 400px;
+  max-height: 400px;
+}
+
+.imageBelowCarousel img{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}

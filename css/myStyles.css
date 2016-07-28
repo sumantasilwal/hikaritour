@@ -1,0 +1,37 @@
+.myCarouselImg img {
+  width: 1200px;
+	
+	
+	
+  height: 442px;
+  max-height: 442px;
+}
+
+.imghead{
+    background-image: url('../images/Capture.png');
+    background-position: : bottom;
+    background-size: cover;
+    height: auto;
+}
+
+.picResize img { 
+   height: 50px;
+    width:50px;
+}
+
+.col-xs-6 {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.col-xs-6 a {
+    margin-bottom: 0;
+}
+
+body {
+   /* background-color:aliceblue;*/
+    margin-top: 10px;
+    margin-bottom: 5px;
+        
+}
