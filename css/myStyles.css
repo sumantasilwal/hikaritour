@@ -14,10 +14,7 @@
     height: auto;
 }
 
-.picResize img { 
-   height: 50px;
-    width:50px;
-}
+
 
 .col-xs-6 {
     padding: 10px;
@@ -55,4 +52,18 @@ ul.nav-pills {
 }
 .myCarousel div.current {
     z-index: 2;
+}
+
+.paddingRoom{
+    padding-top:15px;
+    padding-bottom: 5px;
+    background-color: antiquewhite;
+}
+.breathingRoom{
+    padding top:50px;
+    padding-bottom: 30px;
+}
+
+.product .img-responsive {
+    margin: 0 auto;
 }
