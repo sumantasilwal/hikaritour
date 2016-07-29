@@ -31,7 +31,28 @@
 
 body {
    /* background-color:aliceblue;*/
-  
+    margin-top: 5px;
     margin-bottom: 5px;
         
+}
+
+ul.nav-pills {
+      top: 700px;
+        
+      position: fixed;
+  }
+
+.myCarousel {
+   height:442px;
+    min-width:1200px;
+}
+.myCarousel div {
+    position:absolute;
+    z-index: 0;
+}
+.myCarousel div.previous {
+    z-index: 1;
+}
+.myCarousel div.current {
+    z-index: 2;
 }

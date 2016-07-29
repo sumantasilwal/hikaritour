@@ -31,7 +31,7 @@ $(function(){
 //To fade carousel
 $(function() {
             // create the image rotator
-            setInterval("rotateImages()", 4000);
+            setInterval("rotateImages()", 3000);
         });
 
         function rotateImages() {

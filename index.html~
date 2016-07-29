@@ -11,15 +11,12 @@
 	<link href="css/myStyles.css" rel="stylesheet">   
     
   </head>
-  <body id="home">
-      
-<!--      LOGO NAV AND CAROUSEL  START-->
-      
+  <body data-spy="scroll" data-target="#myScrollspy" data-offset-top="500">
       <section class="container">
           <div class="content row">
           <div class="col col-lg-12"> 
               
-    <!--------Start Logo and Menu Bar ---------------------------------->   
+    <!-------- Logo and Menu Bar ---------------------------------->   
            
               <div class="clearfix">
                    <section class="navbar">
@@ -63,9 +60,6 @@
                       
                      </div><!--clearfix-->
               
-    <!--              Logo and Menu bar Close-->
-              
-              
      <!------ Starting for Carousel ------->
                            
               <div id="myCarousel" class="carousel hidden-sm slide">
@@ -83,37 +77,48 @@
                       <div class="carousel-caption">
                           <h2 style="color:red">Hikari Tour</h2><p>Share Your Journey With us</p>
                            </div><!--carousel-caption--> 
-                      
-                      <div class="myCarousel">
-                      <div class="current"><img src="images/phewa-lake-pokhara.jpg" alt="Pokhara"></div>
+                      <div class="active item"><img src="images/phewa-lake-pokhara.jpg" alt="Pokhara"></div>
                       
                       
-                      <div ><img src="images/Swayambhunath_in_Kathmandu_Valley,_Nepal.jpg" alt="Annapurna"></div>
+                      <div class="item"><img src="images/Swayambhunath_in_Kathmandu_Valley,_Nepal.jpg" alt="Annapurna"></div>
                       
                          
-                       <div ><img src="images/annapurna101.jpg" alt="Dhaulagiri"></div>
-                       <div ><img src="images/everest-header.jpg" alt="Mount Everest"></div>
-                       <div ><img src="images/Treks.jpg" alt="Trek "></div>
+                       <div class="item"><img src="images/annapurna101.jpg" alt="Dhaulagiri"></div>
+                       <div class="item"><img src="images/everest-header.jpg" alt="Mount Everest"></div>
+                       <div class="item"><img src="images/Treks.jpg" alt="Ilam"></div>
                        
-                      </div>   
+                       
                   </section> <!--caroucel-inner-->     
                   <a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span> </a>
                   <a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span> </a>
                   </div><!--myCarouselImg--> 
               </div><!--myCarousel--> 
-<!--        Carousel Close      -->
-              
               </div>
           </div>
       </section> 
-<!--     LOGO NAV AND CAROUSEL CLOSE      -->
+           
      
-<!--   ARTICLE SECTION  START   -->
       
        <div class="container">
     <div class="row">
-        
-        <!--             Main Section Start -->
+      <nav class="col col-lg-2" id="myScrollspy">
+         <ul class="nav nav-pills nav-stacked">
+                      <li><h5><strong><a href="tour.html"> Nepal Tours </a> </strong></h5></li>
+                     <li><h5><strong><a href="trek.html"> Nepal Trekking </a> </strong></h5></li>
+                     <li><h5><strong><a href="peakclimbing.html"> Peak Climbing </a> </strong></h5></li>
+                     <li><h5><strong><a href="expedition.html"> Expedition </a> </strong></h5></li>
+                     <li><h5><strong><a href="riverrafting.html"> River Rafting </a> </strong></h5></li>
+                     <li><h5><strong><a href="daytour.html"> Day Tours </a> </strong></h5></li>
+                     <li><h5><strong><a href="hiking.html"> Short Hiking </a> </strong></h5></li>                 
+                     
+                 </ul>
+                 
+             
+                </nav><!--                  scrollspy-->
+                
+               
+          
+              
             <section class="main col col-lg-10">
                  
 <!--                Tour Section Start-->
@@ -123,7 +128,7 @@
                     <h2><strong><u>Tours</u></strong></h2>
                     <h1></h1>
                     
-                     <div class="col col-xs-6 col-sm-4 col-lg-4">
+                     <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
                             <img class="picResize" src="images/lumbini.jpg" alt="Lumbini Tour">
                             <div class="caption">
@@ -132,9 +137,9 @@
                                 <a class="btn btn-info" href="lumbini.html">more info..</a>
                             </div><!--                            caption-->
                         </div><!--                        thumbnail-->
-                    </div><!--                   col-xs -->
+                    </dic><!--                   col-xs -->
                     
-                    <div class="col col-xs-6 col-sm-4 col-lg-4">
+                    <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
                             <img class="picResize" src="images/Pokhara_image.jpg" alt="Pokhara Tour">
                             <div class="caption">
@@ -143,12 +148,12 @@
                                 <a class="btn btn-info" href="pokhara.html">more info..</a>
                             </div><!--                            caption-->
                         </div><!--                        thumbnail-->
-                    </div><!--                   col-xs -->
+                    </dic><!--                   col-xs -->
                   
                     
                     
                     
-                    <div class="col col-xs-6 col-sm-4 col-lg-4">
+                    <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
                             <img class="picResize" src="images/chitwan.jpg" alt="Chitwan Tour">
                             <div class="caption">
@@ -157,7 +162,7 @@
                                 <a class="btn btn-info" href="chitwan.html">more info..</a>
                             </div><!--                            caption-->
                         </div><!--                        thumbnail-->
-                    </div><!--                   col-xs -->
+                    </dic><!--                   col-xs -->
                     
                     
                     
@@ -170,7 +175,7 @@
                     <h2><strong><u>Treking</u></strong></h2>
                     <h1></h1>
                     
-                     <div class="col col-xs-6 col-sm-4 col-lg-4">
+                     <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
                             <img src="images/everest-nepal-top%20of%20the%20world-mt_everest.jpg" alt="Everest Trek">
                             <div class="caption">
@@ -179,9 +184,9 @@
                                 <a class="btn btn-info" href="trekeverest.html">more info..</a>
                             </div><!--                            caption-->
                         </div><!--                        thumbnail-->
-                    </div><!--                   col-xs -->
+                    </dic><!--                   col-xs -->
                     
-                    <div class="col col-xs-6 col-sm-4 col-lg-4">
+                    <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
                             <img src="images/annapurna101.jpg" alt="Annapurna Trek">
                             <div class="caption">
@@ -190,12 +195,12 @@
                                 <a class="btn btn-info" href="trekannapurna.html">more info..</a>
                             </div><!--                            caption-->
                         </div><!--                        thumbnail-->
-                    </div><!--                   col-xs -->
+                    </dic><!--                   col-xs -->
                   
                     
                     
                     
-                    <div class="col col-xs-6 col-sm-4 col-lg-4">
+                    <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
                             <img  src="images/Lo-Manthang.jpg" alt="Lo-Manthang Trek">
                             <div class="caption">
@@ -204,11 +209,11 @@
                                 <a class="btn btn-info" href="treklomanthang.html">more info..</a>
                             </div><!--                            caption-->
                         </div><!--                        thumbnail-->
-                    </div><!--                   col-xs -->
+                    </dic><!--                   col-xs -->
                     
                   
                     
-                     <div class="col col-xs-6 col-sm-4 col-lg-4">
+                     <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
                             <img src="images/Langtang-Valley-trek.jpg" alt="Langtang Trek">
                             <div class="caption">
@@ -217,9 +222,9 @@
                                 <a class="btn btn-info" href="treklantang.html">more info..</a>
                             </div><!--                            caption-->
                         </div><!--                        thumbnail-->
-                    </div><!--                   col-xs -->
+                    </dic><!--                   col-xs -->
                     
-                    <div class="col col-xs-6 col-sm-4 col-lg-4">
+                    <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
                             <img src="images/manaslu.jpg" alt="Manaslu Trek">
                             <div class="caption">
@@ -228,12 +233,12 @@
                                 <a class="btn btn-info" href="trekmanaslu.html">more info..</a>
                             </div><!--                            caption-->
                         </div><!--                        thumbnail-->
-                    </div><!--                   col-xs -->
+                    </dic><!--                   col-xs -->
                   
                     
                     
                     
-                    <div class="col col-xs-6 col-sm-4 col-lg-4">
+                    <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
                             <img  src="images/gadeshhimal.jpg" alt="Gadesh Himal Trek">
                             <div class="caption">
@@ -242,7 +247,7 @@
                                 <a class="btn btn-info" href="trekgadesh.html">more info..</a>
                             </div><!--                            caption-->
                         </div><!--                        thumbnail-->
-                    </div><!--                   col-xs -->
+                    </dic><!--                   col-xs -->
                     
                      <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
@@ -255,7 +260,7 @@
                         </div><!--                        thumbnail-->
                     </dic><!--                   col-xs -->
                     
-                    <div class="col col-xs-6 col-sm-4 col-lg-4">
+                    <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
                             <img src="images/Rara.jpg" alt="Rara Trek">
                             <div class="caption">
@@ -264,12 +269,12 @@
                                 <a class="btn btn-info" href="trekrara.html">more info..</a>
                             </div><!--                            caption-->
                         </div><!--                        thumbnail-->
-                    </div><!--                   col-xs -->
+                    </dic><!--                   col-xs -->
                   
                     
                     
                     
-                    <div class="col col-xs-6 col-sm-4 col-lg-4">
+                    <dic class="col col-xs-6 col-sm-4 col-lg-4">
                         <div class="thumbnail">
                             <img  src="images/Khapted%20national%20Park.jpg" alt="Khaptad Trek">
                             <div class="caption">
@@ -278,7 +283,7 @@
                                 <a class="btn btn-info" href="trekgadesh.html">more info..</a>
                             </div><!--                            caption-->
                         </div><!--                        thumbnail-->
-                    </div><!--                   col-xs -->
+                    </dic><!--                   col-xs -->
                     
                     
                     
@@ -290,37 +295,14 @@
                 
              </section><!--main-->
                
-<!--             Main Section Close-->
-        
-        
-<!--        Secondary Secction Start-->
-      <section class="secondary col col-lg-2">
-         <ul >
-                      <li><h5><strong><a href="tour.html"> Nepal Tours </a> </strong></h5></li>
-                     <li><h5><strong><a href="trek.html"> Nepal Trekking </a> </strong></h5></li>
-                     <li><h5><strong><a href="peakclimbing.html"> Peak Climbing </a> </strong></h5></li>
-                     <li><h5><strong><a href="expedition.html"> Expedition </a> </strong></h5></li>
-                     <li><h5><strong><a href="riverrafting.html"> River Rafting </a> </strong></h5></li>
-                     <li><h5><strong><a href="daytour.html"> Day Tours </a> </strong></h5></li>
-                     <li><h5><strong><a href="hiking.html"> Short Hiking </a> </strong></h5></li>                 
-                     
-                 </ul>
-                 
              
-                </section><!--                  col-->
-               
-<!--        Sectondary Section Close-->
-               
-          
-
              
          </div><!--col-->
             
       </div><!--container -->
    
-<!--      ARTICLE SECTION CLOSE-->
     
-<!--    FOOTER SECTION START-->
+<!--    footer Start-->
       
     <section class="content container">
       <footer class="row ">
@@ -358,7 +340,7 @@
 
         </footer><!--row-->
        </section><!--container-->
-<!--      FOOTER SECTION CLOSE -->
+<!--      footer closed-->
 
     <script src="js/jquery.js"></script>
     <script src="js/bundle.js"></script>   

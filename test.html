@@ -1,37 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-    <title>Hikari Tours</title>  
-    <link href='https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link href="css/styles.css" rel="stylesheet"> 
-	<link href="css/myStyles.css" rel="stylesheet">   
-    
-  </head>
-  <body id="home">
-      <section class="container">
-      <div class="content row">
-        
-             <section class="main col col-lg-8">
-                 <p>Hikari Tours is owned and managed by Mr Loknath Silwal, a qualified tourist and trekking guide with fifteen years plus experience. Over the years Mr Silwal has travelled through length and breadth of Nepal and has served hundreds of satisfied guests. Our staff members are professionally qualified and experienced to provide excellent service with smile to make you stay in Nepal truly memorable.Whatever your travel needs are we are here to help you:
-                 
-                 Hikari Tours is owned and managed by Mr Loknath Silwal, a qualified tourist and trekking guide with fifteen years plus experience. Over the years Mr Silwal has travelled through length and breadth of Nepal and has served hundreds of satisfied guests. Our staff members are professionally qualified and experienced to provide excellent service with smile to make you stay in Nepal truly memorable.Whatever your travel needs are we are here to help you:</p>
-            </section>
-             <section class="main col col-lg-4">
-                 Hikari Tours is owned and managed by Mr Loknath Silwal, a qualified tourist and trekking guide with fifteen years plus experience. Over the years Mr Silwal has travelled through length and breadth of Nepal and has served hundreds of satisfied guests. Our staff members are professionally qualified and experienced to provide excellent service with smile to make you stay in Nepal truly memorable.Whatever your travel needs are we are here to help you:
-            </section>
-            
-         
-          </div>
-      </section>    
-             
-   
-
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
     <script src="js/jquery.js"></script>
-    <script src="js/bundle.js"></script>   
-    <script src="js/script.js"></script>
-  </body>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative;
+  }
+  ul.nav-pills {
+      top: 20px;
+      position: fixed;
+  }
+  div.col-sm-9 div {
+      height: 250px;
+      font-size: 28px;
+  }
+  #section1 {color: #fff; background-color: #1E88E5;}
+  #section2 {color: #fff; background-color: #673ab7;}
+  #section3 {color: #fff; background-color: #ff9800;}
+  #section41 {color: #fff; background-color: #00bcd4;}
+  #section42 {color: #fff; background-color: #009688;}
+  
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 150px;
+    }
+  }
+  </style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+<div class="container">
+  <div class="row">
+    <nav class="col-sm-3" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#section41">Section 4-1</a></li>
+            <li><a href="#section42">Section 4-2</a></li>                     
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="col-sm-9">
+      <div id="section1">    
+        <h1>Section 1</h1>
+        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      </div>
+      <div id="section2"> 
+        <h1>Section 2</h1>
+        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      </div>        
+      <div id="section3">         
+        <h1>Section 3</h1>
+        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      </div>
+      <div id="section41">         
+        <h1>Section 4-1</h1>
+        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      </div>      
+      <div id="section42">         
+        <h1>Section 4-2</h1>
+        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
